@@ -1,23 +1,33 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+
 :root {
-  --main-font: 'IBM Plex Mono', monospace;
-  --main-font-size: 18px;
-  --main-line-height: 130%;
-  --header-articles-gap: 20px;
-  --articles-gap: 20px;
-  --shadow-color: #ff0070;
-  --header-weight: 700;
-  --text-weight: 400;
-  --main-padding: 10px;
-  --main-content-vertical-padding: 40px;
-  --sections-gap: 50px;
-  --main-text-color: #f1b2ce;
-  --bg-color: #000028;
-  --main-header-color: #db00ff;
-  --button-color: #ff0070;
-  --button-hover-border: #ff007066;
-  --section-header-color: #ff0070;
-  --article-header-color: #000028;
-  --article-bg-color: #ff0070;
-  --link-shadow-color: #ff0070;
-  --bg-image: url("../images/cover-image-dark.png");
+  /* цвета*/
+  --color-title: #DB00FF;
+  --color-text: #F1B2CE;
+  --accent-color: #FF0070; /* текст, фон блоков*/
+  --color-bg: #000028; /* фон, текст*/
+  --accent-color-hover: #FF007066;
+  --color-text-title: #000028; /* цвет заголовков*/
+  --color_nav: #FF0070; /* цвет меню*/
+  --color-title-sectioin: #FF0070;
+
+  /* шрифты*/
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size: 18px;
+  --font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); /*для декстопа и планшета clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) */
+  --font-weight-regular: normal;
+  --font-weight-bold: bold;
+  
+  /* отступы*/
+  --gap-side: 10px;
+  --gap-ind: 10px;
+  --gap-section: 30px;
+  --gap-block: 50px;
+  --gap-inblock: 20px;
+
+  /* тень*/
+  --shadow: 4px 4px 0 var(--accent-color);
 }

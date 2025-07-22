@@ -1,27 +1,15 @@
 :root.theme-dark {
-  --main-text-color: #f1b2ce;
-  --bg-color: #000028;
-  --main-header-color: #db00ff;
-  --button-color: #ff0070;
-  --button-hover-border: #ff007066;
-  --section-header-color: #ff0070;
-  --article-header-color: #000028;
-  --article-bg-color: #ff0070;
-  --link-shadow-color: #ff0070;
-  --bg-image: url("../images/cover-image-dark.png");
+  /* цвета*/
+  --color-title: #DB00FF;
+  --color-text: #F1B2CE;
+  --accent-color: #FF0070; /* текст, фон блоков*/
+  --color-bg: #000028; /* фон, текст*/
+  --accent-color-hover: #FF007066;
+  --color-text-title: #000028; /* цвет заголовков*/
+  --color_nav: #FF0070; /* цвет меню*/
+  --color-title-sectioin: #FF0070;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root.page {
-  --main-text-color: #f1b2ce;
-  --bg-color: #000028;
-  --main-header-color: #db00ff;
-  --button-color: #ff0070;
-  --button-hover-border: #ff007066;
-  --section-header-color: #ff0070;
-  --article-header-color: #000028;
-  --article-bg-color: #ff0070;
-  --link-shadow-color: #ff0070;
-  --bg-image: url("../images/cover-image-dark.png");
-}
+.theme-dark .page {
+  background-image: url(../images/cover-image-dark.png);
 }
