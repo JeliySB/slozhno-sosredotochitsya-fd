@@ -72,10 +72,12 @@
   border: none;
   width: 70px;
   height: 26px;
+  cursor: pointer
 }
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--color_nav);
+  pointer-events: none;
 }
 
 .title_h1 {
@@ -83,7 +85,7 @@
   font-weight: var(--font-weight-bold);
   color: var(--color-title);
   text-shadow: var(--shadow);
-  line-height: 83%;
+  line-height: 0.83em;
 }
 
 .header_text {
@@ -118,7 +120,7 @@
 
 /* header hover and focus*/
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent-color-hover);
+  outline: 1px solid var(--color-hover-menu);
 }
 
 .header__theme-menu-button:focus {
@@ -215,14 +217,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 668px;
   width: 100%;
 }
 
-.footer_h1 {
+.footer_p {
   font-size: var(--font-size-title);
   color: var(--color-title);
   text-shadow: 2px 2px 0 var(--accent-color);
-  line-height: 83%;
+  line-height: 0.83em;
+  font-weight: var(--font-weight-bold);
 }
 
 /* Адаптивность*/

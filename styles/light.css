@@ -8,6 +8,7 @@
   --color-text-title: #353430; /* цвет заголовков*/
   --color_nav: #353430; /* цвет меню*/
   --color-title-sectioin: #353430;
+  --color-hover-menu: #32312D66;
 }
 
 .theme-light .page {
@@ -16,4 +17,26 @@
 
 .theme-light .rec {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-title: #FFC2E6;
+    --color-text: #353430;
+    --accent-color: #FF8DCB;
+    --color-bg: #FFF1F7;
+    --accent-color-hover: #353430;
+    --color-text-title: #353430;
+    --color_nav: #353430;
+    --color-title-sectioin: #353430;
+    --color-hover-menu: #32312D66;
+  }
+
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .rec {
+    display: none;
+  }
 }
