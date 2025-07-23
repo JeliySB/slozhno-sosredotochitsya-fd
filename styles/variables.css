@@ -9,7 +9,7 @@
   --color-text: #F1B2CE;
   --accent-color: #FF0070; /* текст, фон блоков*/
   --color-bg: #000028; /* фон, текст*/
-  --accent-color-hover: #FF007066;
+  --accent-color-focus: #FF007066;
   --color-text-title: #000028; /* цвет заголовков*/
   --color_nav: #FF0070; /* цвет меню*/
   --color-title-sectioin: #FF0070;

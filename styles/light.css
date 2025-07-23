@@ -4,7 +4,7 @@
   --color-text: #353430;
   --accent-color: #FF8DCB; /* текст, фон блоков*/
   --color-bg: #FFF1F7; /* фон, текст*/
-  --accent-color-hover: #353430;
+  --accent-color-focus: #353430;
   --color-text-title: #353430; /* цвет заголовков*/
   --color_nav: #353430; /* цвет меню*/
   --color-title-sectioin: #353430;
@@ -25,7 +25,7 @@
     --color-text: #353430;
     --accent-color: #FF8DCB;
     --color-bg: #FFF1F7;
-    --accent-color-hover: #353430;
+    --accent-color-focus: #353430;
     --color-text-title: #353430;
     --color_nav: #353430;
     --color-title-sectioin: #353430;
